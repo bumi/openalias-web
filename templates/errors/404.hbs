@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>404</title>
+    <link rel="stylesheet" href="/assets/spectre/spectre.min.css">
+    <link rel="stylesheet" href="/assets/spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="/assets/spectre/spectre-icons.min.css">
+    
+    <link rel="stylesheet" href="/assets/oa.css">
+  </head>
+  <body>
+    <div id="openalias-web" class="off-canvas">
+      <div>
+        <h1 class="header">404: Not Found</h1>
+        <p>The page at {{ path }} does not exist!</p>
+        <p>It seems {{path}} does not have any OpenAlias entries.</p>
+
+        <form id="fqdn-form" onsubmit="document.location = '{{domain}}/' + document.getElementById('fqdn').value;return false;">
+          Find another one:
+          <div class="input-group">
+            <span class="input-group-addon addon-lg">{{domain}}/</span>
+            <input class="form-input input-lg" type="text" id="fqdn" placeholder="Your Domain">
+            <button class="btn btn-primary input-group-btn btn-lg" onclick="document.location = '{{domain}}/' + document.getElementById('fqdn').value;">Go</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

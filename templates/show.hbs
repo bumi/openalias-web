@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{domain}}</title>
+    
+    <link rel="stylesheet" href="/assets/spectre/spectre.min.css">
+    <link rel="stylesheet" href="/assets/spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="/assets/spectre/spectre-icons.min.css">
+    
+    <link rel="stylesheet" href="/assets/oa.css">
+  </head>
+  <body>
+    <div id="openalias-web" class="off-canvas">
+      <div class="container">
+        <h1 class="header">{{ domain }}</h1>
+        <div class="columns">
+          {{#each addresses}}
+            <div class="column col-4 col-mx-auto">  
+              <div class="card">
+                <div class="card-header">
+                  <div class="label label-primary float-right">{{cryptocurrency}}</div>
+                  <div class="card-title h5">
+                    {{ recipient_name }}
+                  </div>
+                  <div class="card-subtitle text-gray">
+                    {{ tx_description }}
+                  </div>
+                </div>
+                <div class="card-body">
+                  {{ address }}
+                </div>
+              </div>
+            </div>
+            {{#unless @last }}
+              <div class="divider-vert" data-content="OR"></div>
+            {{/unless}}
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

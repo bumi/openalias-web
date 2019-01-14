@@ -1,0 +1,13 @@
+#openalias-web {
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+.card {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
