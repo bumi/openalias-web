@@ -25,6 +25,29 @@ Here is the page for the entries from donate@getmonero.org:
 If you already have a domain with OpenAlias DNS entries you already have one: `https://openalias-web.herokuapp.com/YOUR DOMAIN`  
 If not, simply configure your DNS entries as described on [OpenAlias.org](https://openalias.org) (because of DNS propagation it might take a bit until your page is available)
 
+
+## Development 
+
+The app is written in Rust and uses the [rocket.rs](https://rocket.rs/) web framework. 
+
+To run the app locally: 
+
+    $ cargo run
+    
+    
+Build a release:
+
+    $ cargo build --release
+    
+
+### Running an instance
+
+
+
+## ToDo
+
+- DESIGN, DESIGN, DESIGN - a properly design page is required... can you help?
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/bumi/openalias-web .
