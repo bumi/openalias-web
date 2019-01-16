@@ -48,6 +48,7 @@ The app is deployed on Heroku using the buildpack: [emk/heroku-buildpack-rust](h
 ## ToDo
 
 - DESIGN, DESIGN, DESIGN - a properly design page is required... can you help?
+- get a proper short domain
 
 ## Contributing
 
