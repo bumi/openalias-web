@@ -42,7 +42,7 @@ Build a release:
 
 ### Deployment
 
-The app is deployed on Heroku using the buildpack: [Hoverbear/heroku-buildpack-rust](https://github.com/Hoverbear/heroku-buildpack-rust).
+The app is deployed on Heroku using the buildpack: [emk/heroku-buildpack-rust](https://github.com/emk/heroku-buildpack-rust).
 
 
 ## ToDo
