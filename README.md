@@ -38,10 +38,11 @@ To run the app locally:
 Build a release:
 
     $ cargo build --release
-    
+ 
 
-### Running an instance
+### Deployment
 
+The app is deployed on Heroku using the buildpack: [Hoverbear/heroku-buildpack-rust](https://github.com/Hoverbear/heroku-buildpack-rust).
 
 
 ## ToDo
