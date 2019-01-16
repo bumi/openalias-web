@@ -17,7 +17,7 @@
         <h2>Using <a href="https://openalias.org/">OpenAlias</a> to create your cryptocurrency tipping page</h2>
 
         <p>
-        Simply setup your OpenAlias DNS records and get your page on {{host}}/[YOUR FQDN]
+          Simply setup your OpenAlias DNS records and get your page on {{host}}/[YOUR FQDN]
         </p>
         <form id="fqdn-form" onsubmit="document.location = '{{host}}/' + document.getElementById('fqdn').value;return false;">
           <div class="input-group">
@@ -27,6 +27,32 @@
           </div>
         </form>
         Example: <a href="{{host}}/donate@getmonero.org">{{host}}/donate@getmonero.org</a>
+
+
+
+        <div class="notes">
+          <h3>What is OpenAlias?</h3>
+          <p>
+            <a href="https://openalias.org">OpenAlias</a> is an open standard for simpler addresses for any crypto currencies.
+          </p>
+          <p>
+              At its most basic, OpenAlias is a TXT DNS record on a FQDN (fully qualified domain name). <br>
+              By combining this with DNS-related technologies it has created an aliasing standard that is extensible for developers, <br>
+              intuitive and familiar for users, and can interoperate with both centralised and decentralised domain systems.
+          </p>
+          <h3>Fork me on GitHub</h3>
+          <p>
+            Code for this app is on GitHub: <a href="https://github.com/bumi/openalias-web">bumi/openalias-web</a>
+          </p>
+
+          <h3>Questions? Feedback?</h3>
+          <p>
+            If you have questons or feedback please <a href="https://github.com/bumi/openalias-web/issues">open an issue on GitHub</a>
+            or send me an email: hello@michaelbumann.com
+          </p>
+
+        </div>
+
       </div>
     </div>
   </body>
