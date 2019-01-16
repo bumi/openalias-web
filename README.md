@@ -1,7 +1,7 @@
 # OpenAlias Web
 
-This tool creates custom pages with payment details for any domain with [OpenAlias](https://openalias.org) entries.  
-It can be used as a tipping/donation page. No setup or signup is required. All details are gathered from the OpenAlias DNS entries.
+This tool creates custom pages with crypto-currency payment details for any domain with [OpenAlias](https://openalias.org) entries.  
+It can be used as a tipping/donation page. No setup or signup is required. All details are gathered exlusively from the OpenAlias DNS entries.
 
 
 ## What is OpenAlias? 
