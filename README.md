@@ -22,7 +22,7 @@ Here is the page for the entries from donate@getmonero.org:
 
 ## How to get your page
 
-If you already have a domain with OpenAlias DNS entries you already have one: https://openalias-web.herokuapp.com/YOUR DOMAIN  
+If you already have a domain with OpenAlias DNS entries you already have one: `https://openalias-web.herokuapp.com/YOUR DOMAIN`  
 If not, simply configure your DNS entries as described on [OpenAlias.org](https://openalias.org) (because of DNS propagation it might take a bit until your page is available)
 
 ## Contributing
