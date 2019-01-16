@@ -15,7 +15,7 @@ OpenAlias ([openalias.org](https://openalias.org)) is an open standard for simpl
 
 ## Example: 
 
-Here is the page for the entries from donate@getmonero.org:
+Here is the page for the entries from `donate@getmonero.org`:
 
 [[openalias-web-host]/donate@getmonero.org](https://openalias-web.herokuapp.com/donate@getmonero.org)
 
