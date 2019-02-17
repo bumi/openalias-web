@@ -52,7 +52,8 @@ The app is deployed on Heroku using the buildpack: [emk/heroku-buildpack-rust](h
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/bumi/openalias-web .
+Bug reports and pull requests are welcome on GitHub at https://github.com/bumi/openalias-web .  
+(this is my first Rust code, feedback and fixes are very welcome :) 
 
 ## License
 
